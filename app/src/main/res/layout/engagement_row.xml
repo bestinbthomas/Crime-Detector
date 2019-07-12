@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_white"
+    android:orientation="horizontal"
+    android:id="@+id/force_engagement_row"
+    android:gravity="center"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginEnd="5dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/force_engagement_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_favicon_white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:paddingLeft="15dp"
+        android:paddingRight="12dp"
+        android:paddingEnd="12dp"
+        android:paddingStart="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/force_engagement_title"
+            android:text="@string/title"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/force_engagement_description"
+            android:text=""
+            android:textColor="@color/gray"
+            android:textSize="17sp"
+            android:layout_marginTop="4dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/force_engagement_url"
+            android:text=""
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

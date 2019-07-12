@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Crime Detector</string>
+    <string name="name">Name:\u0020</string>
+    <string name="forces">Forces</string>
+    <string name="force">Force:\u0020</string>
+    <string name="id">ID:\u0020</string>
+    <string name="phone">Phone:\u0020</string>
+    <string name="about">About:\u0020</string>
+    <string name="title">Title</string>
+    <string name="london">City Of London</string>
+    <string name="search_by_month">Month</string>
+    <string name="search_by_location">Location</string>
+    <string name="latitude">Latitude:\u0020</string>
+    <string name="longitude">Longitude:\u0020</string>
+    <string name="sample_latitude">52.629</string>
+    <string name="sample_longitude">-1.131</string>
+    <string name="search">Search</string>
+    <string name="submit">Submit</string>
+    <string name="crimes">Crimes</string>
+    <string name="month">Month:\u0020</string>
+    <string name="year">Year:\u0020</string>
+    <string name="time">Time</string>
+    <string name="search_crimes">Search For Crimes</string>
+    <string name="location_known">Coordinates known</string>
+
+</resources>

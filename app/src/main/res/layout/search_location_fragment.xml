@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchLocation"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/latitude"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_latitude"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:hint="@string/sample_latitude"
+            android:textColorHint="@color/gray"
+            android:inputType="numberDecimal|numberSigned"
+            android:backgroundTint="@color/dark_gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/longitude"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_longitude"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:hint="@string/sample_longitude"
+            android:textColorHint="@color/gray"
+            android:inputType="numberDecimal|numberSigned"
+            android:backgroundTint="@color/dark_gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_location_submit"
+            android:text="@string/search"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/yellow"
+            android:background="@drawable/capsule_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

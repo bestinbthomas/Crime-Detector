@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forces_view_button"
+        android:text="@string/forces"
+        android:textColor="@color/black"
+        android:background="@drawable/capsule_button"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/crimes_view_button"
+        android:text="@string/crimes"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:background="@drawable/capsule_button"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
